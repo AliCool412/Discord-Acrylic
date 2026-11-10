@@ -1,4 +1,4 @@
-# Discord Semi-Fluent
+# Discord Acrylic
 Theme for Vencord to enable Acrylic Backdrop.
 
 ![Screenshot](screenshot.png)
@@ -21,6 +21,6 @@ Theme for Vencord to enable Acrylic Backdrop.
 2. Enable it from your respective theme settings.
 
 ### QuickCSS
-1. Go to  [`fluent-discord.css`](https://github.com/AliCool412/Discord-Acrylic/blob/main/acrylic-discord.css).
+1. Go to  [`acrylic-discord.css`](https://github.com/AliCool412/Discord-Acrylic/blob/main/acrylic-discord.css).
 2. Copy raw file.
 3. Paste it in your QuickCSS editor.
