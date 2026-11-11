@@ -55,6 +55,7 @@
 body{
   background: transparent !important;
   background-color: transparent !important;
+  --background-base-lower: transparent !important;
 }
 [class^="page"],
 [class^="itemCard"]{
