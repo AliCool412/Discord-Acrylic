@@ -24,3 +24,10 @@ Theme for Vencord to enable Acrylic Backdrop.
 1. Go to  [`acrylic-discord.css`](https://github.com/AliCool412/Discord-Acrylic/blob/main/acrylic-discord.css).
 2. Copy raw file.
 3. Paste it in your QuickCSS editor.
+
+### Online Themes
+Paste the following into the theme URLs section :
+
+```
+https://raw.githubusercontent.com/AliCool412/Discord-Acrylic/main/acrylic-discord.css
+```
