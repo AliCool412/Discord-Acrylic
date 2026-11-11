@@ -80,8 +80,9 @@ body{
     background: transparent !important;
     background-color: transparent !important;
 }
-[class^="itemCard"]:hover{
-    background-color: #FFFFFF11 !important;
+[class^="itemCard"]:hover,
+[class^="wrapperAudio"]{
+    background-color: #00000077 !important;
 }
 [class^=scrollerInner] > [class^="container"],
 [class^=scrollerInner] > [class^="divider"]{
