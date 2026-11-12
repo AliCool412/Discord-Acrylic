@@ -103,7 +103,7 @@ body{
 [data-mana-component="select-input-field"] *{
     background: #00000077 !important;
 }
-:root *:not([class^="switchIndicator"], img, [class^="vc-switch-container"]){
+:root *:not([class^="switchIndicator"], img, [class^="vc-switch-container"], [class="repliedMessageClickableSpine"]:before){
     border: 0px solid !important;
     border-radius: 0px !important;
 }
