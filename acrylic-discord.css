@@ -106,7 +106,7 @@ body{
 [class^="actionBar"]{
     background: #00000077 !important;
 }
-:root *:not([class^="switchIndicator"], img, [class^="vc-switch-container"], [class="repliedMessageClickableSpine"]){
+:root *:not([class^="switchIndicator"], img, [class^="vc-switch-container"], [class=^"repliedMessageClickableSpine"]){
     border: 0px solid !important;
     border-radius: 0px !important;
     --shadow-border: 0 6px 8px #0003 !important;
