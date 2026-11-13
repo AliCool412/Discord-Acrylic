@@ -52,6 +52,8 @@
 [class^="member"],
 [class^="channelBottomBarArea"],
 [class^="themedBackground"],
+[id^="gif-picker-tab-panel"],
+[class^="inspector"],
 body{
   background: transparent !important;
   background-color: transparent !important;
