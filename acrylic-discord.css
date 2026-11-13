@@ -111,3 +111,23 @@ body{
     border-radius: 0px !important;
     --shadow-border: 0 6px 8px #0003 !important;
 }
+
+@media (prefers-color-scheme: light) {
+  
+[class^="page"],
+[class^="itemCard"]{
+    background: #FFFFFF77 !important;
+}
+[class^="itemCard"]:hover,
+[class^="wrapperAudio"]{
+    background-color: #FFFFFF77 !important;
+}
+[class^="wrapper"]:has([class^="input"]),
+[class^="channelTextArea"],
+[class^="searchBar"]:has([role="combobox"]),
+[data-mana-component="select-input-field"],
+[data-mana-component="select-input-field"] *,
+[class^="actionBar"]{
+    background: #FFFFFF77 !important;
+}
+}
