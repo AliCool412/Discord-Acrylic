@@ -103,7 +103,8 @@ body{
 [class^="searchBar"]:has([role="combobox"]),
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
-[class^="actionBar"]{
+[class^="actionBar"],
+[id^="popout"]{
     background: #00000077 !important;
 }
 :root *:not([class^="switchIndicator"], img, [class^="vc-switch-container"], [class^="repliedMessageClickableSpine"]){
@@ -115,7 +116,8 @@ body{
 @media (prefers-color-scheme: light) {
   
 [class^="page"],
-[class^="itemCard"]{
+[class^="itemCard"],
+[id^="popout"]{
     background: #FFFFFF77 !important;
 }
 [class^="itemCard"]:hover,
