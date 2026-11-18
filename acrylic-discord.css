@@ -115,8 +115,10 @@ body{
 
 @media (prefers-color-scheme: light) {
   
-[class^="page"],
+[class^="page"]:not([class^="pageBody"]),
 [class^="itemCard"],
+[class^="prompt"],
+[class^="channelRow"],
 [id^="popout"]{
     background: #FFFFFF77 !important;
 }
