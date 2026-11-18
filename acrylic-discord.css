@@ -104,7 +104,7 @@ body{
 [class^="searchBar"]:has([role="combobox"]),
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
-[class^="actionBar"]{
+[class^="actionBar"]:not([class*="section"]){
     background: #00000077 !important;
 }
 :root *:not([class^="switchIndicator"], img, [class^="vc-switch-container"], [class^="repliedMessageClickableSpine"]){
@@ -120,18 +120,18 @@ body{
 [class^="prompt"],
 [class^="channelRow"],
 [id^="popout"]{
-    background: #FFFFFF77 !important;
+    background: #DDDDDD77 !important;
 }
 [class^="itemCard"]:hover,
 [class^="wrapperAudio"]{
-    background-color: #FFFFFF77 !important;
+    background-color: #DDDDDD77 !important;
 }
 [class^="wrapper"]:has([class^="input"]),
 [class^="channelTextArea"],
 [class^="searchBar"]:has([role="combobox"]),
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
-[class^="actionBar"]{
-    background: #FFFFFF77 !important;
+[class^="actionBar"]:not([class*="section"]){
+    background: #DDDDDD77 !important;
 }
 }
