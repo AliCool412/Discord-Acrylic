@@ -63,7 +63,8 @@ body{
 [class^="page"],
 [class^="itemCard"],
 [class^="itemCard"]:hover,
-[class^="wrapperAudio"]{
+[class^="wrapperAudio"],
+[id^="message-accessories"] > *{
     background: #00000077 !important;
 }
 [class^="sidebarList"] {
@@ -120,7 +121,8 @@ body{
 [class^="channelRow"],
 [id^="popout"],
 [class^="itemCard"]:hover,
-[class^="wrapperAudio"]{
+[class^="wrapperAudio"],
+[id^="message-accessories"] > *{
     background: #DDDDDD77 !important;
 }
 [class^="wrapper"]:has([class^="input"]),
