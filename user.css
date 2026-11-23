@@ -62,7 +62,6 @@ body{
 }
 [class^="page"],
 [class^="itemCard"],
-[class*="clickable"],
 [class^="itemCard"]:hover,
 [class^="wrapperAudio"]{
     background: #00000077 !important;
@@ -120,10 +119,9 @@ body{
 [class^="prompt"],
 [class^="channelRow"],
 [id^="popout"],
-[class*="clickable"],
 [class^="itemCard"]:hover,
 [class^="wrapperAudio"]{
-    background: #DDDDDD77 !important;
+    background: #DDDDDD !important;
 }
 [class^="wrapper"]:has([class^="input"]),
 [class^="channelTextArea"],
@@ -131,6 +129,6 @@ body{
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
 [class^="actionBar"]:not([class*="section"]){
-    background: #DDDDDD77 !important;
+    background: #DDDDDD !important;
 }
 }
