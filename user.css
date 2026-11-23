@@ -121,7 +121,7 @@ body{
 [id^="popout"],
 [class^="itemCard"]:hover,
 [class^="wrapperAudio"]{
-    background: #DDDDDD !important;
+    background: #DDDDDD77 !important;
 }
 [class^="wrapper"]:has([class^="input"]),
 [class^="channelTextArea"],
@@ -129,6 +129,6 @@ body{
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
 [class^="actionBar"]:not([class*="section"]){
-    background: #DDDDDD !important;
+    background: #DDDDDD77 !important;
 }
 }
