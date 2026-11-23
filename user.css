@@ -116,6 +116,7 @@ body{
 [class^="newMessagesBar"]{
     border-radius: 0px !important;
     margin-top: 4px !important;
+    box-shadow: var(--shadow-border) !important;
 }
 
 @media (prefers-color-scheme: light) {
@@ -139,6 +140,7 @@ body{
     background: #DDDDDD77 !important;
 }
 }
+
 
 
 
