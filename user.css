@@ -64,7 +64,7 @@ body{
 [class^="itemCard"],
 [class^="itemCard"]:hover,
 [class^="wrapperAudio"],
-[id^="message-accessories"] > *:not(:has([class^="wrapperAudio"])){
+[id^="message-accessories"] > *:not(:has([class^="wrapperAudio"]), [class^="visualMediaItemContainer"], [class^="stickerContainer"]){
     background: #00000077 !important;
 }
 [class^="sidebarList"] {
@@ -122,7 +122,7 @@ body{
 [id^="popout"],
 [class^="itemCard"]:hover,
 [class^="wrapperAudio"],
-[id^="message-accessories"] > *:not(:has([class^="wrapperAudio"])){
+[id^="message-accessories"] > *:not(:has([class^="wrapperAudio"]), [class^="visualMediaItemContainer"], [class^="stickerContainer"]){
     background: #DDDDDD77 !important;
 }
 [class^="wrapper"]:has([class^="input"]),
