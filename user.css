@@ -113,6 +113,11 @@ body{
     --shadow-border: 0 6px 8px #0003 !important;
 }
 
+[class^="newMessagesBar"]{
+    border-radius: 0px !important;
+    margin-top: 4px !important;
+}
+
 @media (prefers-color-scheme: light) {
   
 [class^="page"]:not([class^="pageBody"]),
@@ -134,4 +139,5 @@ body{
     background: #DDDDDD77 !important;
 }
 }
+
 
