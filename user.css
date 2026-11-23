@@ -16,12 +16,12 @@
 [class^="privateChannels"],
 [class^="scroller"],
 [class^="privateChannels"],
-[class^="container"]:not([role="listbox"], [role="dialog"] [class^="container"], [data-mana-component="modal"], [class^="nonVisualMediaItem"] *, [id^="popout"] *, [class*="fixClipping"], [class*="withAccentColor"]),
+[class^="container"]:not([role="listbox"], [role="dialog"] [class^="container"], [data-mana-component="modal"], [class^="nonVisualMediaItem"] *, [id^="popout"] *, [class*="fixClipping"], [class*="withAccentColor"], [id="message-accessories] *),
 [class^="nowPlayingColumn"],
 [class^="themed"],
 [class^="sidebar"],
 [class^="sidebar"]:after,
-[class^="wrapper"]:not([class^="wrapper"]:has([class^="input"]), [class^="wrapperAudio"]),
+[class^="wrapper"]:not([class^="wrapper"]:has([class^="input"]), [class^="wrapperAudio"], [class*="clickable"], [id="message-accessories] *),
 [class^="visual-refresh"] [class^="clickable"],
 [class^="visual-refresh"] [class^="hasBanner"],
 [class^="header"],
@@ -61,7 +61,10 @@ body{
   --background-base-lower: transparent !important;
 }
 [class^="page"],
-[class^="itemCard"]{
+[class^="itemCard"],
+[class*="clickable"],
+[class^="itemCard"]:hover,
+[class^="wrapperAudio"]{
     background: #00000077 !important;
 }
 [class^="sidebarList"] {
@@ -84,10 +87,7 @@ body{
     background: transparent !important;
     background-color: transparent !important;
 }
-[class^="itemCard"]:hover,
-[class^="wrapperAudio"]{
-    background-color: #00000077 !important;
-}
+
 [class^=scrollerInner] > [class^="container"],
 [class^=scrollerInner] > [class^="divider"]{
     position: relative !important;
@@ -119,12 +119,11 @@ body{
 [class^="itemCard"],
 [class^="prompt"],
 [class^="channelRow"],
-[id^="popout"]{
-    background: #DDDDDD77 !important;
-}
+[id^="popout"],
+[class*="clickable"],
 [class^="itemCard"]:hover,
 [class^="wrapperAudio"]{
-    background-color: #DDDDDD77 !important;
+    background: #DDDDDD77 !important;
 }
 [class^="wrapper"]:has([class^="input"]),
 [class^="channelTextArea"],
