@@ -119,6 +119,13 @@ body{
     box-shadow: var(--shadow-border) !important;
 }
 
+[class*="header"]{
+    background: var(--brand-500) !important;
+    margin: 2px !important;
+    border-radius: 0px !important;
+    box-shadow: var(--shadow-border)
+}
+
 @media (prefers-color-scheme: light) {
   
 [class^="page"]:not([class^="pageBody"]),
