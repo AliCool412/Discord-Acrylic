@@ -64,6 +64,7 @@ body{
 [class^="itemCard"],
 [class^="itemCard"]:hover,
 [class^="wrapperAudio"],
+[class^="fileWrapper"],
 [id^="message-accessories"] > *:not(:has([class^="wrapperAudio"]), [class^="visualMediaItemContainer"], [class^="stickerContainer", [class^="reactions"], [class*="image"] *, [class*="image"], [class^="inlineMediaEmbed"]){
     background: #00000077 !important;
 }
